@@ -136,10 +136,10 @@ if __name__=='__main__':
 
 
         elif "who made you" in statement or "who created you" in statement or "who discovered you" in statement:
-            speak("I was built by Mirthula")
-            print("I was built by Mirthula")
+            speak("I was built by Khush and Namrata")
+            print("I was built by Khush and Namrata")
 
-        elif "open stackoverflow" in statement:
+        elif "open stack overflow" in statement:
             webbrowser.open_new_tab("https://stackoverflow.com/login")
             speak("Here is stackoverflow")
 
